@@ -32,7 +32,7 @@ class _AddTaskBottomSheetState extends State<AddTaskBottomSheet> {
           children: [
             Text(
               AppLocalizations.of(context)!.add_new_task,
-              style: Theme.of(context).textTheme.bodyMedium,
+              style: Theme.of(context).textTheme.bodySmall,
             ),
             const SizedBox(height: 16), // Space between the text and form
             Form(
